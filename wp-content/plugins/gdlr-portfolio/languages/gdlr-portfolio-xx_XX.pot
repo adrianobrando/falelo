@@ -1,0 +1,423 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Goodlayers Portfolio\n"
+"POT-Creation-Date: 2015-05-20 12:09+0700\n"
+"PO-Revision-Date: 2015-05-20 12:09+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\skinbeauty\\wp-content\\plugins\\gdlr-"
+"portfolio\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gdlr-portfolio-item.php:80 gdlr-product-item.php:71
+msgid "All"
+msgstr ""
+
+#: gdlr-portfolio-item.php:194 gdlr-portfolio-option.php:72
+msgid "Time"
+msgstr ""
+
+#: gdlr-portfolio-item.php:203 gdlr-portfolio-option.php:76
+msgid "Staff"
+msgstr ""
+
+#: gdlr-portfolio-item.php:212 gdlr-portfolio-option.php:80
+msgid "Price"
+msgstr ""
+
+#: gdlr-portfolio-item.php:222
+msgid "Download Brochure"
+msgstr ""
+
+#: gdlr-portfolio-item.php:231 gdlr-product-item.php:212
+msgid "Tags"
+msgstr ""
+
+#: gdlr-portfolio-option.php:22
+msgid "Goodlayers Portfolio Option"
+msgstr ""
+
+#: gdlr-portfolio-option.php:32
+msgid "Page Layout"
+msgstr ""
+
+#: gdlr-portfolio-option.php:45
+msgid "Left Sidebar"
+msgstr ""
+
+#: gdlr-portfolio-option.php:51
+msgid "Right Sidebar"
+msgstr ""
+
+#: gdlr-portfolio-option.php:60
+msgid "Page Option"
+msgstr ""
+
+#: gdlr-portfolio-option.php:63
+msgid "Page Caption"
+msgstr ""
+
+#: gdlr-portfolio-option.php:67
+msgid "Header Background Image"
+msgstr ""
+
+#: gdlr-portfolio-option.php:68
+msgid "Upload"
+msgstr ""
+
+#: gdlr-portfolio-option.php:84
+msgid "Brochure Link"
+msgstr ""
+
+#: gdlr-portfolio-option.php:88
+msgid "Thumbnail Type"
+msgstr ""
+
+#: gdlr-portfolio-option.php:91
+msgid "Feature Image"
+msgstr ""
+
+#: gdlr-portfolio-option.php:92 gdlr-portfolio-option.php:135
+msgid "Video"
+msgstr ""
+
+#: gdlr-portfolio-option.php:93 gdlr-portfolio-option.php:125
+#: gdlr-portfolio-option.php:136 gdlr-portfolio-option.php:152
+msgid "Slider"
+msgstr ""
+
+#: gdlr-portfolio-option.php:98
+msgid "Thumbnail Link"
+msgstr ""
+
+#: gdlr-portfolio-option.php:101
+msgid "Link to Portfolio"
+msgstr ""
+
+#: gdlr-portfolio-option.php:102
+msgid "Lightbox to Full Image"
+msgstr ""
+
+#: gdlr-portfolio-option.php:103
+msgid "Link to URL"
+msgstr ""
+
+#: gdlr-portfolio-option.php:104
+msgid "Lightbox Image"
+msgstr ""
+
+#: gdlr-portfolio-option.php:105
+msgid "Lightbox Video"
+msgstr ""
+
+#: gdlr-portfolio-option.php:110
+msgid "Specify Url"
+msgstr ""
+
+#: gdlr-portfolio-option.php:115
+msgid "Open In New Tab"
+msgstr ""
+
+#: gdlr-portfolio-option.php:120 gdlr-portfolio-option.php:147
+msgid "Video Url"
+msgstr ""
+
+#: gdlr-portfolio-option.php:130
+msgid "Inside Portfolio Thumbnail Type"
+msgstr ""
+
+#: gdlr-portfolio-option.php:133
+msgid "Same As Thumbnail Type"
+msgstr ""
+
+#: gdlr-portfolio-option.php:134
+msgid "Image"
+msgstr ""
+
+#: gdlr-portfolio-option.php:137
+msgid "Stack Images"
+msgstr ""
+
+#: gdlr-portfolio-option.php:142
+msgid "Image Url"
+msgstr ""
+
+#: gdlr-portfolio-option.php:172 gdlr-portfolio.php:44
+msgid "Portfolio"
+msgstr ""
+
+#: gdlr-portfolio-option.php:176 gdlr-product-option.php:20
+msgid "Category"
+msgstr ""
+
+#: gdlr-portfolio-option.php:179 gdlr-product-option.php:23
+msgid ""
+"You can use Ctrl/Command button to select multiple categories or remove the "
+"selected category. <br><br> Leave this field blank to select all categories."
+msgstr ""
+
+#: gdlr-portfolio-option.php:182 gdlr-product-option.php:26
+msgid "Tag"
+msgstr ""
+
+#: gdlr-portfolio-option.php:185
+msgid "Will be ignored when the portfolio filter option is enabled."
+msgstr ""
+
+#: gdlr-portfolio-option.php:188
+msgid "Portfolio Style"
+msgstr ""
+
+#: gdlr-portfolio-option.php:191 gdlr-product-option.php:35
+msgid "Classic 2 Style"
+msgstr ""
+
+#: gdlr-portfolio-option.php:192 gdlr-product-option.php:36
+msgid "Classic 2 No Space Style"
+msgstr ""
+
+#: gdlr-portfolio-option.php:193 gdlr-product-option.php:37
+msgid "Classic Style"
+msgstr ""
+
+#: gdlr-portfolio-option.php:194 gdlr-product-option.php:38
+msgid "Classic No Space Style"
+msgstr ""
+
+#: gdlr-portfolio-option.php:195 gdlr-product-option.php:39
+msgid "Modern Style"
+msgstr ""
+
+#: gdlr-portfolio-option.php:196 gdlr-product-option.php:40
+msgid "Modern No Space Style"
+msgstr ""
+
+#: gdlr-portfolio-option.php:197 gdlr-product-option.php:41
+msgid "Medium Style"
+msgstr ""
+
+#: gdlr-portfolio-option.php:201 gdlr-product-option.php:51
+msgid "Num Fetch"
+msgstr ""
+
+#: gdlr-portfolio-option.php:204
+msgid "Specify the number of portfolios you want to pull out."
+msgstr ""
+
+#: gdlr-portfolio-option.php:207
+msgid "Portfolio Size"
+msgstr ""
+
+#: gdlr-portfolio-option.php:218
+msgid "Portfolio Layout Order"
+msgstr ""
+
+#: gdlr-portfolio-option.php:221 gdlr-product-option.php:71
+msgid "FitRows ( Order items by row )"
+msgstr ""
+
+#: gdlr-portfolio-option.php:222 gdlr-product-option.php:72
+msgid "Masonry ( Order items by spaces )"
+msgstr ""
+
+#: gdlr-portfolio-option.php:223
+msgid "Carousel ( Only For Grid And Modern Style )"
+msgstr ""
+
+#: gdlr-portfolio-option.php:225
+msgid "You can see an example of these two layout here"
+msgstr ""
+
+#: gdlr-portfolio-option.php:229 gdlr-product-option.php:77
+msgid "Enable Portfolio filter"
+msgstr ""
+
+#: gdlr-portfolio-option.php:232 gdlr-product-option.php:80
+msgid ""
+"*** You have to select only 1 ( or none ) portfolio category when enable "
+"this option. This option cannot works with carousel function."
+msgstr ""
+
+#: gdlr-portfolio-option.php:235 gdlr-product-option.php:83
+msgid "Thumbnail Size"
+msgstr ""
+
+#: gdlr-portfolio-option.php:238 gdlr-product-option.php:86
+msgid "Only effects to <strong>standard and gallery post format</strong>"
+msgstr ""
+
+#: gdlr-portfolio-option.php:241 gdlr-product-option.php:89
+msgid "Order By"
+msgstr ""
+
+#: gdlr-portfolio-option.php:244 gdlr-product-option.php:92
+msgid "Publish Date"
+msgstr ""
+
+#: gdlr-portfolio-option.php:245 gdlr-product-option.php:93
+msgid "Title"
+msgstr ""
+
+#: gdlr-portfolio-option.php:246 gdlr-product-option.php:94
+msgid "Random"
+msgstr ""
+
+#: gdlr-portfolio-option.php:250 gdlr-product-option.php:98
+msgid "Order"
+msgstr ""
+
+#: gdlr-portfolio-option.php:253 gdlr-product-option.php:101
+msgid "Descending Order"
+msgstr ""
+
+#: gdlr-portfolio-option.php:254 gdlr-product-option.php:102
+msgid "Ascending Order"
+msgstr ""
+
+#: gdlr-portfolio-option.php:258 gdlr-product-option.php:106
+msgid "Enable Pagination"
+msgstr ""
+
+#: gdlr-portfolio-option.php:262 gdlr-product-option.php:110
+msgid "Margin Bottom"
+msgstr ""
+
+#: gdlr-portfolio-option.php:265 gdlr-product-option.php:113
+msgid "Spaces after ending of this item"
+msgstr ""
+
+#: gdlr-portfolio.php:43 gdlr-portfolio.php:55
+msgid "Portfolios"
+msgstr ""
+
+#: gdlr-portfolio.php:45
+msgid "Add New"
+msgstr ""
+
+#: gdlr-portfolio.php:46
+msgid "Add New Portfolio"
+msgstr ""
+
+#: gdlr-portfolio.php:47
+msgid "Edit Portfolio"
+msgstr ""
+
+#: gdlr-portfolio.php:48
+msgid "New Portfolio"
+msgstr ""
+
+#: gdlr-portfolio.php:49
+msgid "All Portfolios"
+msgstr ""
+
+#: gdlr-portfolio.php:50
+msgid "View Portfolio"
+msgstr ""
+
+#: gdlr-portfolio.php:51
+msgid "Search Portfolio"
+msgstr ""
+
+#: gdlr-portfolio.php:52
+msgid "No portfolios found"
+msgstr ""
+
+#: gdlr-portfolio.php:53
+msgid "No portfolios found in Trash"
+msgstr ""
+
+#: gdlr-portfolio.php:76
+msgid "Portfolio Categories"
+msgstr ""
+
+#: gdlr-portfolio.php:77
+msgid "Portfolio Category"
+msgstr ""
+
+#: gdlr-portfolio.php:86
+msgid "Portfolio Tags"
+msgstr ""
+
+#: gdlr-portfolio.php:87
+msgid "Portfolio Tag"
+msgstr ""
+
+#: gdlr-product-item.php:184
+msgid "Client"
+msgstr ""
+
+#: gdlr-product-item.php:193
+msgid "Skills"
+msgstr ""
+
+#: gdlr-product-item.php:202
+msgid "Website"
+msgstr ""
+
+#: gdlr-product-item.php:261
+msgid "Add to Cart"
+msgstr ""
+
+#: gdlr-product-item.php:266
+msgid "Read More"
+msgstr ""
+
+#: gdlr-product-option.php:16
+msgid "Product"
+msgstr ""
+
+#: gdlr-product-option.php:29
+msgid "Will be ignored when the filter option is enabled."
+msgstr ""
+
+#: gdlr-product-option.php:32
+msgid "Product Style"
+msgstr ""
+
+#: gdlr-product-option.php:45
+msgid "Num Excerpt"
+msgstr ""
+
+#: gdlr-product-option.php:54
+msgid "Specify the number of products you want to pull out."
+msgstr ""
+
+#: gdlr-product-option.php:57
+msgid "Product Size"
+msgstr ""
+
+#: gdlr-product-option.php:68
+msgid "Product Layout Order"
+msgstr ""
+
+#: gdlr-product-option.php:73
+msgid "Carousel ( Cannot use with filter function )"
+msgstr ""
+
+#: single-portfolio-blog.php:46 single-portfolio.php:81
+msgid "Pages:"
+msgstr ""
+
+#: single-portfolio-blog.php:67
+msgid "About Post Author"
+msgstr ""
+
+#: single-portfolio.php:42
+msgid "Treatment Info"
+msgstr ""
+
+#: single-portfolio.php:76
+msgid "Treatment Detail"
+msgstr ""
+
+#: single-portfolio.php:123
+msgid "Related Projects"
+msgstr ""

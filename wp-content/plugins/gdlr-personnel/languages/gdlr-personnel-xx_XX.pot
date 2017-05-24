@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Goodlayers Personnel\n"
+"POT-Creation-Date: 2015-05-20 12:08+0700\n"
+"PO-Revision-Date: 2015-05-20 12:08+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\skinbeauty\\wp-content\\plugins\\gdlr-"
+"personnel\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gdlr-personnel-item.php:159 gdlr-personnel-item.php:195
+msgid "Read Profile"
+msgstr ""
+
+#: gdlr-personnel-option.php:22
+msgid "Goodlayers Personnel Option"
+msgstr ""
+
+#: gdlr-personnel-option.php:32
+msgid "Page Layout"
+msgstr ""
+
+#: gdlr-personnel-option.php:46
+msgid "Left Sidebar"
+msgstr ""
+
+#: gdlr-personnel-option.php:52
+msgid "Right Sidebar"
+msgstr ""
+
+#: gdlr-personnel-option.php:61
+msgid "Page Option"
+msgstr ""
+
+#: gdlr-personnel-option.php:64
+msgid "Header Background Image"
+msgstr ""
+
+#: gdlr-personnel-option.php:65
+msgid "Upload"
+msgstr ""
+
+#: gdlr-personnel-option.php:69
+msgid "Position"
+msgstr ""
+
+#: gdlr-personnel-option.php:73
+msgid "E-Mail"
+msgstr ""
+
+#: gdlr-personnel-option.php:77
+msgid "Telephone"
+msgstr ""
+
+#: gdlr-personnel-option.php:81
+msgid "Social Shortcode"
+msgstr ""
+
+#: gdlr-personnel-option.php:100 gdlr-personnel.php:39 gdlr-personnel.php:40
+#: gdlr-personnel.php:51
+msgid "Personnel"
+msgstr ""
+
+#: gdlr-personnel-option.php:104
+msgid "Category"
+msgstr ""
+
+#: gdlr-personnel-option.php:107
+msgid ""
+"You can use Ctrl/Command button to select multiple categories or remove the "
+"selected category. <br><br> Leave this field blank to select all categories."
+msgstr ""
+
+#: gdlr-personnel-option.php:110
+msgid "Num Fetch"
+msgstr ""
+
+#: gdlr-personnel-option.php:113
+msgid "Specify the number of personnel you want to pull out."
+msgstr ""
+
+#: gdlr-personnel-option.php:116
+msgid "Item Size"
+msgstr ""
+
+#: gdlr-personnel-option.php:127
+msgid "Personnel Layout Order"
+msgstr ""
+
+#: gdlr-personnel-option.php:130
+msgid "FitRows ( Order items by row )"
+msgstr ""
+
+#: gdlr-personnel-option.php:131
+msgid "Masonry ( Order items by spaces )"
+msgstr ""
+
+#: gdlr-personnel-option.php:132
+msgid "Carousel"
+msgstr ""
+
+#: gdlr-personnel-option.php:134
+msgid "You can see an example of these two layout here"
+msgstr ""
+
+#: gdlr-personnel-option.php:138
+msgid "Thumbnail Size"
+msgstr ""
+
+#: gdlr-personnel-option.php:141
+msgid "Only effects to <strong>standard and gallery post format</strong>"
+msgstr ""
+
+#: gdlr-personnel-option.php:144
+msgid "Order By"
+msgstr ""
+
+#: gdlr-personnel-option.php:147
+msgid "Publish Date"
+msgstr ""
+
+#: gdlr-personnel-option.php:148
+msgid "Title"
+msgstr ""
+
+#: gdlr-personnel-option.php:149
+msgid "Random"
+msgstr ""
+
+#: gdlr-personnel-option.php:153
+msgid "Order"
+msgstr ""
+
+#: gdlr-personnel-option.php:156
+msgid "Descending Order"
+msgstr ""
+
+#: gdlr-personnel-option.php:157
+msgid "Ascending Order"
+msgstr ""
+
+#: gdlr-personnel-option.php:161
+msgid "Enable Pagination"
+msgstr ""
+
+#: gdlr-personnel-option.php:165
+msgid "Margin Bottom"
+msgstr ""
+
+#: gdlr-personnel-option.php:168
+msgid "Spaces after ending of this item"
+msgstr ""
+
+#: gdlr-personnel.php:41
+msgid "Add New"
+msgstr ""
+
+#: gdlr-personnel.php:42
+msgid "Add New Personnel"
+msgstr ""
+
+#: gdlr-personnel.php:43
+msgid "Edit Personnel"
+msgstr ""
+
+#: gdlr-personnel.php:44
+msgid "New Personnel"
+msgstr ""
+
+#: gdlr-personnel.php:45
+msgid "All Personnel"
+msgstr ""
+
+#: gdlr-personnel.php:46
+msgid "View Personnel"
+msgstr ""
+
+#: gdlr-personnel.php:47
+msgid "Search Personnel"
+msgstr ""
+
+#: gdlr-personnel.php:48
+msgid "No personnel found"
+msgstr ""
+
+#: gdlr-personnel.php:49
+msgid "No personnel found in Trash"
+msgstr ""
+
+#: gdlr-personnel.php:72
+msgid "Personnel Categories"
+msgstr ""
+
+#: gdlr-personnel.php:73
+msgid "Personnel Category"
+msgstr ""
