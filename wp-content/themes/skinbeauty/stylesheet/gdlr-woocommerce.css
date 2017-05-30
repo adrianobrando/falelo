@@ -115,8 +115,7 @@ html .woocommerce .quantity input.qty, html .woocommerce #content .quantity inpu
 	-webkit-border-bottom-left-radius:  0px;
 	-moz-border-radius-topleft:  0px;
 	-moz-border-radius-bottomleft:  0px;
-	border-top-left-radius:  0px;
-	border-bottom-left-radius: 0px;
+	border-radius:  4px;
 }
 html .woocommerce .quantity, html .woocommerce #content .quantity, html .woocommerce-page .quantity, html .woocommerce-page #content .quantity {
 	width: 73px;
