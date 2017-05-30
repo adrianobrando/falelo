@@ -446,6 +446,7 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 
 		if ( is_add_payment_method_page() ) {
 			$pay_button_text = __( 'Add Card', 'woocommerce-gateway-stripe' );
+			$total        = '';
 		} else {
 			$pay_button_text = '';
 		}
@@ -553,10 +554,10 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
 		if ( $this->stripe_checkout ) {
-			wp_enqueue_script( 'stripe_checkout', 'https://checkout.stripe.com/v2/checkout.js', '', '2.0', true );
+			wp_enqueue_script( 'stripe_checkout', 'https://checkout.stripe.com/checkout.js', '', WC_STRIPE_VERSION, true );
 			wp_enqueue_script( 'woocommerce_stripe', plugins_url( 'assets/js/stripe-checkout' . $suffix . '.js', WC_STRIPE_MAIN_FILE ), array( 'stripe_checkout' ), WC_STRIPE_VERSION, true );
 		} else {
-			wp_enqueue_script( 'stripe', 'https://js.stripe.com/v2/', '', '1.0', true );
+			wp_enqueue_script( 'stripe', 'https://js.stripe.com/v2/', '', '2.0', true );
 			wp_enqueue_script( 'woocommerce_stripe', plugins_url( 'assets/js/stripe' . $suffix . '.js', WC_STRIPE_MAIN_FILE ), array( 'jquery-payment', 'stripe' ), WC_STRIPE_VERSION, true );
 		}
 
@@ -836,10 +837,10 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 
 		// Store source in the order.
 		if ( $source->customer ) {
-			update_post_meta( $order_id, '_stripe_customer_id', $source->customer );
+			version_compare( WC_VERSION, '3.0.0', '<' ) ? update_post_meta( $order_id, '_stripe_customer_id', $source->customer ) : $order->update_meta_data( '_stripe_customer_id', $source->customer );
 		}
 		if ( $source->source ) {
-			update_post_meta( $order_id, '_stripe_card_id', $source->source );
+			version_compare( WC_VERSION, '3.0.0', '<' ) ? update_post_meta( $order_id, '_stripe_card_id', $source->source ) : $order->update_meta_data( '_stripe_card_id', $source->source );
 		}
 	}
 
@@ -873,7 +874,7 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 			$this->log( 'Success: ' . $message );
 
 		} else {
-			add_post_meta( $order_id, '_transaction_id', $response->id, true );
+			update_post_meta( $order_id, '_transaction_id', $response->id, true );
 
 			if ( $order->has_status( array( 'pending', 'failed' ) ) ) {
 				version_compare( WC_VERSION, '3.0.0', '<' ) ? $order->reduce_order_stock() : wc_reduce_stock_levels( $order_id );
@@ -882,6 +883,8 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway_CC {
 			$order->update_status( 'on-hold', sprintf( __( 'Stripe charge authorized (Charge ID: %s). Process order to take payment, or cancel to remove the pre-authorization.', 'woocommerce-gateway-stripe' ), $response->id ) );
 			$this->log( "Successful auth: $response->id" );
 		}
+
+		do_action( 'wc_gateway_stripe_process_response', $response, $order );
 
 		return $response;
 	}

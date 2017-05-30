@@ -2,8 +2,8 @@ html.ltie9 body, body{ min-width: 1140px; } .container{ max-width: 1140px; } .gd
 .body-wrapper.gdlr-boxed-style{ max-width: 1220px; overflow: hidden; } .body-wrapper.gdlr-boxed-style .gdlr-header-wrapper{ max-width: 100%; width: 1220px; margin: 0px auto; }
 .gdlr-logo{ max-width: 320px; }
 .gdlr-logo{ margin-top: 31px; }
-.gdlr-logo{ margin-bottom: 25px; }
-.gdlr-navigation-wrapper{ margin-top: 32px; }
+.gdlr-logo{ margin-bottom: 10px; }
+.gdlr-navigation-wrapper{ margin-top: 22px; }
 h1, h2, h3, h4, h5, h6, .gdlr-title-font{ font-family: "Roboto"; }
 body, input, textarea, select{ font-family: "Open Sans"; }
 .gdlr-navigation{ font-family: "Roboto"; }
@@ -49,7 +49,7 @@ body *{ border-color: #e5e5e5; }
 .page-not-found-block{ color: #ffffff; }
 .page-not-found-search  .gdl-search-form input[type="text"]{ background-color: #963a20; }
 .page-not-found-search  .gdl-search-form input[type="text"]{ color: #d57f5c; }
-.gdlr-sidebar .gdlr-widget-title{ color: #E93B8E !important; }
+.gdlr-sidebar .gdlr-widget-title{ color: #e93b8e; }
 .gdlr-sidebar *{ border-color: #eeeeee; }
 .gdlr-sidebar ul li:before { border-color: #bdbdbd; }
 .gdl-search-form input{ background-color: #ffffff; }

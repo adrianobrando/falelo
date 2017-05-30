@@ -230,7 +230,7 @@ img.gdlr-full-boxed-background{ min-height: 100%; min-width: 1024px;
 
 .gdlr-header-wrapper{ position: absolute; z-index: 99; left: 0px; right: 0px; }
 .gdlr-header-container{ position: relative; z-index: 97; }
-.gdlr-logo{ float: left; margin-left: 15px; margin-right: 15px; margin-top: 20px !important; }
+.gdlr-logo{ float: left; margin-left: 15px; margin-right: 15px; margin-top: 10px !important; }
 .gdlr-logo h1{ margin-bottom: 0px; line-height: 0; }
 
 .gdlr-fixed-header{ position: fixed; top: 0px; left: 0px; right: 0px; z-index: 999; }
@@ -1378,7 +1378,7 @@ margin-right: 15px; margin-bottom: 15px; }
 /*--- contact form 7 ---*/
 .wpcf7 input[type="text"], .wpcf7 input[type="email"], 
 .wpcf7 input[type="password"], .wpcf7 textarea { padding: 16px 19px; width: 100%; font-size: 13px; }
-.wpcf7 input[type="submit"] { padding: 10px 20px; letter-spacing: 0; text-transform: none; }
+.wpcf7 input[type="submit"] { padding: 10px 20px; letter-spacing: 0; text-transform: none; width:100%; }
 .wpcf7 span.wpcf7-form-control-wrap {display: block; padding-right: 46px; margin-top: 7px; }	
 
 

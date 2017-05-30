@@ -279,7 +279,7 @@ class WC_Stripe_Apple_Pay extends WC_Gateway_Stripe {
 			'key'                                           => $this->publishable_key,
 			'currency_code'                                 => get_woocommerce_currency(),
 			'country_code'                                  => substr( get_option( 'woocommerce_default_country' ), 0, 2 ),
-			'label'                                         => $this->statement_descriptor,
+			'label'                                         => $this->statement_descriptor . ' (via WooCommerce)',
 			'ajaxurl'                                       => WC_AJAX::get_endpoint( '%%endpoint%%' ),
 			'stripe_apple_pay_nonce'                        => wp_create_nonce( '_wc_stripe_apple_pay_nonce' ),
 			'stripe_apple_pay_cart_nonce'                   => wp_create_nonce( '_wc_stripe_apple_pay_cart_nonce' ),
@@ -316,7 +316,7 @@ class WC_Stripe_Apple_Pay extends WC_Gateway_Stripe {
 			'key'                                           => $this->publishable_key,
 			'currency_code'                                 => get_woocommerce_currency(),
 			'country_code'                                  => substr( get_option( 'woocommerce_default_country' ), 0, 2 ),
-			'label'                                         => $this->statement_descriptor,
+			'label'                                         => $this->statement_descriptor . ' (via WooCommerce)',
 			'ajaxurl'                                       => WC_AJAX::get_endpoint( '%%endpoint%%' ),
 			'stripe_apple_pay_nonce'                        => wp_create_nonce( '_wc_stripe_apple_pay_nonce' ),
 			'stripe_apple_pay_cart_nonce'                   => wp_create_nonce( '_wc_stripe_apple_pay_cart_nonce' ),
@@ -1120,6 +1120,8 @@ class WC_Stripe_Apple_Pay extends WC_Gateway_Stripe {
 
 		// If we got here, the order was created without problems!
 		wc_transaction_query( 'commit' );
+
+		do_action( 'woocommerce_checkout_update_order_meta', $order_id, array() );
 
 		return $order;
 	}
