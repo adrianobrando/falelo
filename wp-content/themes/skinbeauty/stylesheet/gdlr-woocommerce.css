@@ -628,6 +628,7 @@ margin-top: 25px;
 }
 html .woocommerce-info a.showcoupon{ 
 margin-left: 15px;
+color: #E93B8E !important;
 }
 html .woocommerce table.shop_table tfoot td, html .woocommerce table.shop_table tfoot th, html .woocommerce-page table.shop_table tfoot td, html .woocommerce-page table.shop_table tfoot th, .cart-subtotal th, .shipping th , .total th, html .woocommerce table.shop_attributes .alt th, html .woocommerce-page table.shop_attributes .alt th  {
 	background: transparent;

@@ -133,7 +133,7 @@ return array(
 		'type'        => 'text',
 		'desc_tip'    => true,
 		'description' => __( 'This controls the description which the user sees during checkout.', 'woocommerce-gateway-paypal-express-checkout' ),
-		'default'     => __( 'Pay via PayPal; you can pay with your credit card if you don\'t have a PayPal account.', 'woocommerce-gateway-paypal-express-checkout' ),
+		'default'     => __( 'Paga con PayPal; Puoi pagare con la tua carta di credito o di debito se non hai un account PayPal.', 'woocommerce-gateway-paypal-express-checkout' ),
 	),
 
 	'account_settings' => array(
