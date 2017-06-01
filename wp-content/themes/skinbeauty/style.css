@@ -430,7 +430,7 @@ input[type="submit"], input[type="button"]{ -webkit-appearance: none; }
 	
 /*--- feature media ---*/		
 .gdlr-feature-media-item .feature-media-button{ margin-top: 15px; }	
-.gdlr-feature-media-item.gdlr-left .feature-media-thumbnail{ float: left; margin-right: 55px; width: 37%; }
+.gdlr-feature-media-item.gdlr-left .feature-media-thumbnail{ float: left; margin-right: 55px; width: 100%; margin-bottom: 10px; }
 .gdlr-feature-media-item.gdlr-left .feature-media-content-wrapper{ overflow: hidden; }
 .gdlr-feature-media-item.gdlr-center{ text-align: center; }
 .gdlr-feature-media-item.gdlr-center .feature-media-thumbnail{ max-width: 700px; margin: 0px auto 40px; }
