@@ -50,7 +50,7 @@ body *{ border-color: #e5e5e5; }
 .page-not-found-search  .gdl-search-form input[type="text"]{ background-color: #963a20; }
 .page-not-found-search  .gdl-search-form input[type="text"]{ color: #d57f5c; }
 .gdlr-sidebar .gdlr-widget-title{ color: #e93b8e; }
-.gdlr-sidebar *{ border-color: #777; }
+.gdlr-sidebar *{ border-color: #eeeeee; }
 .gdlr-sidebar ul li:before { border-color: #bdbdbd; }
 .gdl-search-form input{ background-color: #ffffff; }
 .gdl-search-form input{ color: #9d9d9d; }
@@ -251,13 +251,3 @@ html .woocommerce .quantity .minus, html .woocommerce #content .quantity .minus,
 .gdlr-skin-light-offers .gdlra-skin-box{ background: #639edb; background: rgba(99, 158, 219, 0.75); }
 .gdlr-skin-light-offers *, .gdlr-skin-light-offers .gdlr-skin-border{ border-color: #eb639c; }
 .gdlr-skin-light-offers .gdlr-button, .gdlr-skin-light-offers .gdlr-button:hover, .gdlr-skin-light-offers input[type="button"], .gdlr-skin-light-offers input[type="submit"]{ color: #ffffff; background-color: #639edb;  }
-
-
-input { border-color: #777;
-    padding: 13px;
-    border-radius: 4px;
-    border-style: solid; }
-
-
-
-

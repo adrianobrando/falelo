@@ -19,20 +19,20 @@
 	<div class="gdlr-top-woocommerce-inner">
 		<?php 
 			echo '<div class="gdlr-cart-count" >';
-			echo '<span class="head">' . __('Items : ', 'gdlr_translate') . ' </span>';
+			echo '<span class="head">' . __('Articoli : ', 'gdlr_translate') . ' </span>';
 			echo '<span class="gdlr-cart-item-count">' . $woocommerce->cart->cart_contents_count . '</span>'; 
 			echo '</div>';
 			
 			echo '<div class="gdlr-cart-amount" >';
-			echo '<span class="head">' . __('Subtotal :', 'gdlr_translate') . ' </span>';
+			echo '<span class="head">' . __('Totale :', 'gdlr_translate') . ' </span>';
 			echo '<span class="gdlr-cart-sum-amount">' . $woocommerce->cart->get_cart_total() . '</span>';
 			echo '</div>';
 		?>
 		<a class="gdlr-cart-button" href="<?php echo esc_url($woocommerce->cart->get_cart_url()); ?>" >
-			<?php echo __('View Cart', 'gdlr_translate'); ?>
+			<?php echo __('Carrello', 'gdlr_translate'); ?>
 		</a>
 		<a class="gdlr-checkout-button" href="<?php echo esc_url($woocommerce->cart->get_checkout_url()); ?>" >
-			<?php echo __('Check Out', 'gdlr_translate'); ?>
+			<?php echo __('Acquista', 'gdlr_translate'); ?>
 		</a>
 	</div>
 	</div>
