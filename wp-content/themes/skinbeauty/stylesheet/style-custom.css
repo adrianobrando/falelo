@@ -4,6 +4,7 @@ html.ltie9 body, body{ min-width: 1140px; } .container{ max-width: 1140px; } .gd
 .gdlr-logo{ margin-top: 31px; }
 .gdlr-logo{ margin-bottom: 25px; }
 .gdlr-navigation-wrapper{ margin-top: 32px; }
+.gdlr-page-title-wrapper { background-image: url('http://localhost/qbo/wp-content/uploads/2017/05/bg-offerte_2.jpg'); }
 h1, h2, h3, h4, h5, h6, .gdlr-title-font{ font-family: "Roboto"; }
 body, input, textarea, select{ font-family: "Open Sans"; }
 .gdlr-navigation{ font-family: "Roboto"; }
