@@ -111,7 +111,7 @@
 .ms-slide .ms-slide-bgvideocont{
 	position: absolute;
 	overflow:hidden;
-	margin-top: 70px;
+	margin-top: 0px;
 	width: 100%;
 }
 
