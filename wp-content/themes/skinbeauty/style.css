@@ -1489,3 +1489,11 @@ only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device
     visibility: visible;
     opacity: 1;
 }
+
+ .search-field {
+    border-style: solid;
+    padding: 13px;
+    border-radius: 4px;
+    border-color: #333 !important;
+}
+

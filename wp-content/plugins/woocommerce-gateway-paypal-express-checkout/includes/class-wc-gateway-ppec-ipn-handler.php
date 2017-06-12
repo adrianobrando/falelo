@@ -97,7 +97,7 @@ class WC_Gateway_PPEC_IPN_Handler extends WC_Gateway_PPEC_PayPal_Request_Handler
 			$posted_data['payment_status'] = strtolower( $posted_data['payment_status'] );
 
 			// Sandbox fix.
-			if ( isset( $posted_data['test_ipn'] ) && 1 == $posted_data['test_ipn'] && 'pending' == $posted_data['payment_status'] ) {
+			if ( ( empty( $posted_data['pending_reason'] ) || 'authorization' !== $posted_data['pending_reason'] ) && isset( $posted_data['test_ipn'] ) && 1 == $posted_data['test_ipn'] && 'pending' == $posted_data['payment_status'] ) {
 				$posted_data['payment_status'] = 'completed';
 			}
 
@@ -311,7 +311,6 @@ class WC_Gateway_PPEC_IPN_Handler extends WC_Gateway_PPEC_PayPal_Request_Handler
 			'first_name'     => 'Payer first name',
 			'last_name'      => 'Payer last name',
 			'payment_type'   => 'Payment type',
-			'txn_id'         => '_transaction_id',
 			'payment_status' => '_paypal_status'
 		);
 
@@ -325,6 +324,10 @@ class WC_Gateway_PPEC_IPN_Handler extends WC_Gateway_PPEC_PayPal_Request_Handler
 					$order->update_meta_data( $meta_key, $value );
 				}
 			}
+		}
+
+		if ( ! empty( $posted_data['txn_id'] ) ) {
+			update_post_meta( $old_wc ? $order->id : $order->get_id(), '_transaction_id', wc_clean( $posted_data['txn_id'] ) );
 		}
 	}
 
