@@ -140,7 +140,7 @@ table.style-2 tr:nth-child(even){ color: #949494; }
 .gdlr-personnel-item .personnel-position{ color: #acacac; }
 .gdlr-personnel-item .personnel-social-divider{ border-color: #d8d8d8; }
 .gdlr-personnel-item .personnel-social i{ color: #3b3b3b; }
-.gdlr-personnel-item .gdlr-personnel-read-more{ background-color: #eb639c; display: none !important;}
+.gdlr-personnel-item .gdlr-personnel-read-more{ background-color: #eb639c; }
 .gdlr-testimonial-item .testimonial-item-inner, .gdlr-testimonial-item .testimonial-author-image{ background-color: #f40000; }
 .gdlr-testimonial-item .testimonial-content{ color: #9b9b9b; }
 .gdlr-testimonial-item .testimonial-author{ color: #639edb; }
